@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineYoutube } from 'react-icons/ai'
+
 import { FaFacebookSquare, FaInstagram, FaLinkedin, FaPinterest, FaSkype, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {

@@ -11,7 +11,7 @@ const BrandDifferent = () => {
             <h3 className='mt-20 ml-6'>What makes our brand different</h3>
         </div>
     {/* Text containner */}
-    <div className='grid grid-cols-1 md:grid-cols-4 lg;grid-col-5 gap-6 ml-6 mt-16 '>
+    <div className='grid grid-cols-1 md:grid-cols-4 lg;grid-col-5 gap-6 ml-6 mt-16'>
         {/* Text 1 */}
     <div className='lg:ml-10'> 
     <TbTruckDelivery size={20} />
@@ -32,11 +32,11 @@ const BrandDifferent = () => {
     </div>
     {/* Text 3 */}
     <div> 
-    <Image src={"/images/Purchase.png"} alt='Purchase Icon' width={20} height={20} />
+    <Image src={'/images/Purchase.png'} alt='Purchase Icon' width={20} height={20} />
     <h4 className='text-[#2A254B] text-[18px] mt-3'>Unbeatable prices</h4>
     <p className='text-[#2A254B] text-[14px] mt-3'>
     For our materials and quality you 
-    won't find better prices anywhere
+    wont find better prices anywhere
     </p>
     </div>
    {/* Text 4 */}
